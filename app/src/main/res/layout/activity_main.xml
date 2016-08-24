@@ -1,0 +1,76 @@
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="fill_parent" android:background="@android:color/holo_blue_bright"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+    <ListView
+        android:layout_width="match_parent" android:id="@+id/sensorlist"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold|italic"
+        android:id="@+id/sensorname"
+        android:text="SensorName"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sensorname"
+        android:layout_marginTop="25dp"
+        android:textSize="23dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="italic"
+        android:id="@+id/sensordetails"
+        android:text="SensorDetails"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="x"
+        android:textSize="25dp"
+        android:layout_below="@+id/sensordetails"
+        android:layout_height="wrap_content"
+        android:id="@+id/x"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_below="@+id/x"
+        android:text="y"
+        android:visibility="gone"
+        android:id="@+id/y"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/z"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="z"
+        android:visibility="gone"
+        android:layout_below="@+id/y"
+        />
+
+
+</RelativeLayout>
+
